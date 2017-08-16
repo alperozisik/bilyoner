@@ -1,0 +1,207 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "f233-8688-5732-38da",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {
+				"width": 187.5,
+				"height": 301.5,
+				"isRemovable": true,
+				"orientation": "PORTRAIT",
+				"backgroundColor": "#EEEEEE",
+				"paddingLeft": null,
+				"paddingRight": null,
+				"paddingTop": null,
+				"paddingBottom": null,
+				"flexProps": {
+					"flexDirection": "COLUMN",
+					"alignItems": "CENTER",
+					"direction": "INHERIT",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "SPACE_AROUND"
+				},
+				"layout": {
+					"width": 93.75,
+					"height": 150.75
+				},
+				"flex": {
+					"flexDirection": 0,
+					"alignItems": 2,
+					"direction": 0,
+					"flexWrap": 0,
+					"justifyContent": 4
+				}
+			},
+			"className": ".page",
+			"version": "6.4.5",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"width": 187.5,
+				"height": 301.5,
+				"isRemovable": true,
+				"paddingLeft": null,
+				"paddingRight": null,
+				"paddingTop": null,
+				"paddingBottom": null,
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "CENTER",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "SPACE_AROUND"
+				},
+				"children": [
+					"6627-65ea-5055-2e8a",
+					"0062-a326-b014-4ed8",
+					"c95c-8183-66df-2c77"
+				],
+				"name": "page1",
+				"parent": null
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "6627-65ea-5055-2e8a",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {
+				"height": 20,
+				"isRemovable": false,
+				"visible": true,
+				"color": "rgba( 93, 162, 28, 1 )",
+				"style": "LIGHTCONTENT",
+				"layout": {
+					"height": 10
+				}
+			},
+			"className": ".statusBar",
+			"props": {
+				"color": "rgba( 93, 162, 28, 1 )",
+				"visible": true,
+				"height": 20,
+				"isRemovable": false,
+				"style": "LIGHTCONTENT",
+				"parent": "f233-8688-5732-38da",
+				"name": "statusBar",
+				"children": []
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "0062-a326-b014-4ed8",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"height": 44,
+				"title": "Bilyoner",
+				"titleColor": "rgba( 0, 0, 0, 1 )",
+				"isRemovable": false,
+				"visible": true,
+				"backgroundColor": "rgba( 93, 162, 28, 1 )",
+				"layout": {
+					"height": 22
+				}
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "Bilyoner",
+				"titleColor": "rgba( 0, 0, 0, 1 )",
+				"visible": true,
+				"backgroundColor": "rgba( 93, 162, 28, 1 )",
+				"height": 44,
+				"isRemovable": false,
+				"parent": "f233-8688-5732-38da",
+				"name": "headerBar",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "c95c-8183-66df-2c77",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"flexProps": {
+					"alignSelf": "STRETCH",
+					"flexGrow": 1
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"flexProps": {
+					"alignSelf": "STRETCH",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "flexLayout6",
+				"parent": "f233-8688-5732-38da",
+				"children": [
+					"8cac-d639-b885-7b05"
+				]
+			}
+		},
+		{
+			"type": "ListView",
+			"id": "8cac-d639-b885-7b05",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".listView",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"multiline": false,
+				"rowHeight": 60,
+				"itemCount": 3,
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"usePageVariable": true,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "listView",
+				"parent": "c95c-8183-66df-2c77",
+				"children": []
+			}
+		}
+	]
+}

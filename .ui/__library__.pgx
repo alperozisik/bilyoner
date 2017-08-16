@@ -1,0 +1,2007 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "7b37-0569-d730-0261",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.4.5",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "FLEX_START"
+				},
+				"name": "__library__",
+				"parent": null,
+				"children": [
+					"0e7b-eeb8-670e-a0b8",
+					"5a97-4319-cfdb-803a",
+					"4ed7-3a35-76ea-4b58",
+					"d99c-89f3-8ea3-b03f"
+				],
+				"width": 187.5,
+				"height": 333.5
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "0e7b-eeb8-670e-a0b8",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"color": "#00A1F1",
+				"visible": false,
+				"name": "statusBar",
+				"parent": "7b37-0569-d730-0261",
+				"children": [],
+				"isRemovable": false,
+				"height": 20
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "5a97-4319-cfdb-803a",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "__library__"
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "__library__",
+				"titleColor": "#000000",
+				"visible": false,
+				"backgroundColor": "#FFFFFF",
+				"name": "headerBar",
+				"parent": "7b37-0569-d730-0261",
+				"children": [],
+				"isRemovable": false,
+				"height": 44
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "4ed7-3a35-76ea-4b58",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": 85,
+				"left": 0,
+				"top": 0,
+				"minWidth": 300,
+				"id": 9,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": 85,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"left": 0,
+				"top": 0,
+				"minWidth": 300,
+				"id": 9,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "ABSOLUTE"
+				},
+				"name": "listviewTemplate",
+				"parent": "7b37-0569-d730-0261",
+				"children": [
+					"e698-2ec3-2f3d-c2a9",
+					"f032-279a-dbf2-873f"
+				]
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "e698-2ec3-2f3d-c2a9",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": 20,
+				"backgroundColor": "rgba( 0, 0, 0, 1 )",
+				"id": 10,
+				"flexProps": {
+					"flexDirection": "ROW"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": 20,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 0, 0, 0, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 10,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE"
+				},
+				"name": "layout_rootTop",
+				"parent": "4ed7-3a35-76ea-4b58",
+				"children": [
+					"b84a-14bb-6997-fee4",
+					"c374-c066-1067-9361"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "c374-c066-1067-9361",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"marginLeft": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"text": "12:30",
+				"usePageVariable": true,
+				"textAlignment": "MIDRIGHT",
+				"marginRight": 10,
+				"id": 101,
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 10
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "12:30",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"textAlignment": "MIDRIGHT",
+				"marginLeft": null,
+				"usePageVariable": true,
+				"marginRight": 10,
+				"id": 101,
+				"font": {
+					"size": 10,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "labelTimeStr",
+				"parent": "e698-2ec3-2f3d-c2a9",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "b84a-14bb-6997-fee4",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"marginLeft": 10,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"text": "Bugun",
+				"usePageVariable": true,
+				"textAlignment": "MIDLEFT",
+				"id": 100,
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 10
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "Bugun",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"textAlignment": "MIDLEFT",
+				"marginLeft": 10,
+				"usePageVariable": true,
+				"id": 100,
+				"font": {
+					"size": 10,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "labelDateStr",
+				"parent": "e698-2ec3-2f3d-c2a9",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "f032-279a-dbf2-873f",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"backgroundColor": "rgba( 47, 98, 14, 1 )",
+				"id": 20,
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 47, 98, 14, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 20,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "layout_rootBottom",
+				"parent": "4ed7-3a35-76ea-4b58",
+				"children": [
+					"518d-360b-e552-ea49",
+					"7fd3-8535-0e51-434f"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "518d-360b-e552-ea49",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 15,
+				"height": null,
+				"backgroundColor": "rgba( 252, 89, 31, 1 )",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"text": "MS",
+				"id": 200,
+				"usePageVariable": true,
+				"font": {
+					"size": 8
+				},
+				"flexProps": {
+					"flexGrow": null
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 15,
+				"height": null,
+				"touchEnabled": true,
+				"text": "MS",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 252, 89, 31, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"textAlignment": "MIDCENTER",
+				"id": 200,
+				"usePageVariable": true,
+				"font": {
+					"size": 8,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": null
+				},
+				"name": "label_left",
+				"parent": "f032-279a-dbf2-873f",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "7fd3-8535-0e51-434f",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"id": 201,
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "COLUMN"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 201,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "layout_center",
+				"parent": "f032-279a-dbf2-873f",
+				"children": [
+					"2985-3e46-8157-38e3",
+					"c087-ec44-556c-5f64"
+				]
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "2985-3e46-8157-38e3",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"marginRight": 5,
+				"id": 2000,
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"marginRight": 5,
+				"id": 2000,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "layout_centerTop",
+				"parent": "7fd3-8535-0e51-434f",
+				"children": [
+					"548f-cdbf-bb0e-59a9",
+					"75ed-d291-a686-5894",
+					"8fd8-1cdc-da1c-6ca0"
+				]
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "c087-ec44-556c-5f64",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": null,
+				"backgroundColor": "rgba( 136, 0, 0, 0 )",
+				"id": 2001,
+				"marginRight": 5,
+				"flexProps": {
+					"flexGrow": 1,
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexDirection": "ROW"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 136, 0, 0, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 2001,
+				"marginRight": 5,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "layout_centerBottom",
+				"parent": "7fd3-8535-0e51-434f",
+				"children": [
+					"7415-bbbf-3aeb-6e0c",
+					"fe21-dea9-81c2-b43d",
+					"fad8-4f31-26c9-6493",
+					"be3f-8536-7696-db3f"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "75ed-d291-a686-5894",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"width": null,
+				"height": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"marginLeft": 2,
+				"text": "Western Sdney - Wellington Phonix",
+				"id": 20001,
+				"flexProps": {
+					"alignSelf": "STRETCH",
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 14,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "Western Sdney - Wellington Phonix",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"textAlignment": "MIDLEFT",
+				"usePageVariable": true,
+				"marginLeft": 2,
+				"id": 20001,
+				"font": {
+					"size": 14,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "STRETCH",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "label_teams",
+				"parent": "2985-3e46-8157-38e3",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "548f-cdbf-bb0e-59a9",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"width": 30,
+				"height": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textColor": "rgba( 235, 233, 52, 1 )",
+				"marginLeft": 5,
+				"text": "501",
+				"id": 20000,
+				"flexProps": {
+					"alignSelf": "STRETCH"
+				},
+				"font": {
+					"size": 14,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 30,
+				"height": null,
+				"touchEnabled": true,
+				"text": "501",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 235, 233, 52, 1 )",
+				"textAlignment": "MIDLEFT",
+				"usePageVariable": true,
+				"marginLeft": 5,
+				"id": 20000,
+				"font": {
+					"size": 14,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "STRETCH",
+					"positionType": "RELATIVE"
+				},
+				"name": "label_MCode",
+				"parent": "2985-3e46-8157-38e3",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "8fd8-1cdc-da1c-6ca0",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 50,
+				"height": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0.25 )",
+				"marginLeft": 3,
+				"marginRight": null,
+				"marginBottom": 5,
+				"marginTop": 5,
+				"borderRadius": 8,
+				"id": 20002,
+				"usePageVariable": true,
+				"flexProps": {
+					"flexDirection": "ROW"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 50,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 0.25 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"marginLeft": 3,
+				"marginRight": null,
+				"marginBottom": 5,
+				"marginTop": 5,
+				"borderRadius": 8,
+				"id": 20002,
+				"usePageVariable": true,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE"
+				},
+				"name": "layout_league2",
+				"parent": "2985-3e46-8157-38e3",
+				"children": [
+					"bd2f-b989-5200-7a13",
+					"1f8a-d030-2637-b7e1",
+					"3c10-ab54-dcd9-70e4"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "bd2f-b989-5200-7a13",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"width": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"marginLeft": null,
+				"marginRight": null,
+				"text": "AUSC",
+				"textAlignment": "MIDCENTER",
+				"height": null,
+				"textColor": "rgba( 241, 240, 53, 1 )",
+				"left": 2,
+				"id": 200000,
+				"font": {
+					"size": 10,
+					"bold": true
+				},
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "AUSC",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 241, 240, 53, 1 )",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"marginLeft": null,
+				"marginRight": null,
+				"left": 2,
+				"id": 200000,
+				"font": {
+					"size": 10,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "label_league",
+				"parent": "8fd8-1cdc-da1c-6ca0",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "1f8a-d030-2637-b7e1",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 1,
+				"height": null,
+				"backgroundColor": "rgba( 118, 140, 95, 1 )",
+				"marginTop": 2,
+				"marginBottom": 2,
+				"id": 200001
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 1,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 118, 140, 95, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"marginTop": 2,
+				"marginBottom": 2,
+				"id": 200001,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE"
+				},
+				"name": "layout_divider",
+				"parent": "8fd8-1cdc-da1c-6ca0",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "3c10-ab54-dcd9-70e4",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"width": 12,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"marginLeft": 1,
+				"marginRight": 1,
+				"text": "4",
+				"textAlignment": "MIDLEFT",
+				"height": null,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"left": null,
+				"id": 200002,
+				"font": {
+					"size": 12,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 12,
+				"height": null,
+				"touchEnabled": true,
+				"text": "4",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"textAlignment": "MIDLEFT",
+				"usePageVariable": true,
+				"marginLeft": 1,
+				"marginRight": 1,
+				"left": null,
+				"id": 200002,
+				"font": {
+					"size": 12,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "label_mbs",
+				"parent": "8fd8-1cdc-da1c-6ca0",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "d99c-89f3-8ea3-b03f",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": 11.399999618530273,
+				"top": 128.10000610351562,
+				"width": 20,
+				"height": 15,
+				"borderRadius": 8,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"flexProps": {
+					"flexDirection": "ROW"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": 15,
+				"width": 20,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"left": 11.399999618530273,
+				"top": 128.10000610351562,
+				"borderRadius": 8,
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "ABSOLUTE"
+				},
+				"name": "betTemplate",
+				"parent": "7b37-0569-d730-0261",
+				"children": [
+					"2874-b453-9236-36da",
+					"8239-aa4c-1956-fad3",
+					"f6c1-8cc7-c6fd-0a6c"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "2874-b453-9236-36da",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": 20,
+				"text": "1",
+				"left": null,
+				"backgroundColor": "rgba( 255, 0, 0, 0 )",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 20,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 0, 0, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#000000",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "labelType",
+				"parent": "d99c-89f3-8ea3-b03f",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "8239-aa4c-1956-fad3",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 1,
+				"height": null,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"id": 102
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 1,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 102,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE"
+				},
+				"name": "layout_divider1",
+				"parent": "d99c-89f3-8ea3-b03f",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "f6c1-8cc7-c6fd-0a6c",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": null,
+				"text": "1.55",
+				"left": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textAlignment": "MIDCENTER",
+				"marginLeft": 2,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true
+				},
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1.55",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"marginLeft": 2,
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "labelPercent",
+				"parent": "d99c-89f3-8ea3-b03f",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "be3f-8536-7696-db3f",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 25,
+				"height": null,
+				"backgroundColor": "rgba( 139, 0, 0, 0 )",
+				"marginLeft": 20,
+				"left": null,
+				"marginRight": null,
+				"marginTop": 5,
+				"marginBottom": 5,
+				"id": 20003,
+				"paddingLeft": null,
+				"paddingRight": null,
+				"paddingBottom": null,
+				"paddingTop": null,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"flexGrow": null
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 25,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 139, 0, 0, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"marginLeft": 20,
+				"left": null,
+				"marginRight": null,
+				"marginTop": 5,
+				"marginBottom": 5,
+				"id": 20003,
+				"paddingLeft": null,
+				"paddingRight": null,
+				"paddingBottom": null,
+				"paddingTop": null,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE",
+					"flexGrow": null
+				},
+				"name": "layout_betcount",
+				"parent": "c087-ec44-556c-5f64",
+				"children": [
+					"6a00-b9ac-e6bd-ef13",
+					"26ef-65e7-bbe3-2d91"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "26ef-65e7-bbe3-2d91",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"width": 10,
+				"height": 10,
+				"right": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"text": "2",
+				"textAlignment": "MIDRIGHT",
+				"id": 200005,
+				"flexProps": {
+					"positionType": "ABSOLUTE",
+					"right": 0
+				},
+				"font": {
+					"size": 7
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 10,
+				"height": 10,
+				"touchEnabled": true,
+				"text": "2",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"textAlignment": "MIDRIGHT",
+				"usePageVariable": true,
+				"right": 0,
+				"id": 200005,
+				"font": {
+					"size": 7,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "ABSOLUTE",
+					"right": 0
+				},
+				"name": "label_betCount",
+				"parent": "be3f-8536-7696-db3f",
+				"children": []
+			}
+		},
+		{
+			"type": "ImageView",
+			"id": "6a00-b9ac-e6bd-ef13",
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"image": "betcount.png",
+				"imageFillType": "STRETCH",
+				"width": null,
+				"height": null,
+				"id": 200004,
+				"flexProps": {
+					"flexGrow": 1,
+					"positionType": "RELATIVE"
+				}
+			},
+			"className": ".imageView",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"visible": true,
+				"imageFillType": "STRETCH",
+				"backgroundColor": "rgba(0,0,0,0)",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"image": "betcount.png",
+				"id": 200004,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "imageView_betCount",
+				"parent": "be3f-8536-7696-db3f",
+				"children": [],
+				"imageURL": "https://dispatcher.r0.smartface.io/smartface19335/ibilyoner/ui-editor/img/betcount.png?os=iOS&osVersion=10.2&density=326&densityRatio=0.5&zoomLevel=0.5&brandModel=iPhone%207"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "7415-bbbf-3aeb-6e0c",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__",
+				"id": "d99c-89f3-8ea3-b03f"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": null,
+				"top": null,
+				"width": null,
+				"height": 25,
+				"borderRadius": null,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"marginLeft": 5,
+				"usePageVariable": true,
+				"id": 20000,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"alignSelf": "CENTER",
+					"flexGrow": 1
+				},
+				"flex": {
+					"flexDirection": 2,
+					"positionType": 0
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": 25,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"left": null,
+				"top": null,
+				"borderRadius": null,
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"marginLeft": 5,
+				"usePageVariable": true,
+				"id": 20000,
+				"flexProps": {
+					"alignSelf": "CENTER",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "bet_1",
+				"parent": "c087-ec44-556c-5f64",
+				"children": [
+					"a58b-0ccd-20cc-fbe1",
+					"7c30-6b01-2ac1-1795",
+					"89b2-6a10-0e32-de93"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "a58b-0ccd-20cc-fbe1",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": 20,
+				"text": "1",
+				"left": null,
+				"backgroundColor": "rgba( 255, 0, 0, 1 )",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 20,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 0, 0, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#000000",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "label47",
+				"parent": "7415-bbbf-3aeb-6e0c",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "7c30-6b01-2ac1-1795",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 1,
+				"height": null,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"id": 102
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 1,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 102,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE"
+				},
+				"name": "flexLayout23",
+				"parent": "7415-bbbf-3aeb-6e0c",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "89b2-6a10-0e32-de93",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": null,
+				"text": "1.55",
+				"left": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textAlignment": "MIDCENTER",
+				"marginLeft": 2,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true
+				},
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1.55",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"marginLeft": 2,
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "label48",
+				"parent": "7415-bbbf-3aeb-6e0c",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "fad8-4f31-26c9-6493",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__",
+				"id": "d99c-89f3-8ea3-b03f"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": null,
+				"top": null,
+				"width": null,
+				"height": 25,
+				"borderRadius": null,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"marginLeft": 10,
+				"usePageVariable": true,
+				"id": 20002,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"alignSelf": "CENTER",
+					"flexGrow": 1
+				},
+				"flex": {
+					"flexDirection": 2,
+					"positionType": 0
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": 25,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"left": null,
+				"top": null,
+				"borderRadius": null,
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"marginLeft": 10,
+				"usePageVariable": true,
+				"id": 20002,
+				"flexProps": {
+					"alignSelf": "CENTER",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "bet_2",
+				"parent": "c087-ec44-556c-5f64",
+				"children": [
+					"47d6-5193-08ec-6375",
+					"5008-bdfa-bc16-701d",
+					"de00-6e5c-428f-9844"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "47d6-5193-08ec-6375",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": 20,
+				"text": "1",
+				"left": null,
+				"backgroundColor": "rgba( 255, 0, 0, 1 )",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 20,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 0, 0, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#000000",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "label49",
+				"parent": "fad8-4f31-26c9-6493",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "5008-bdfa-bc16-701d",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 1,
+				"height": null,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"id": 102
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 1,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 102,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE"
+				},
+				"name": "flexLayout24",
+				"parent": "fad8-4f31-26c9-6493",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "de00-6e5c-428f-9844",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": null,
+				"text": "1.55",
+				"left": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textAlignment": "MIDCENTER",
+				"marginLeft": 2,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true
+				},
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1.55",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"marginLeft": 2,
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "label50",
+				"parent": "fad8-4f31-26c9-6493",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "fe21-dea9-81c2-b43d",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__",
+				"id": "d99c-89f3-8ea3-b03f"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"left": null,
+				"top": null,
+				"width": null,
+				"height": 25,
+				"borderRadius": null,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"marginLeft": 10,
+				"usePageVariable": true,
+				"id": 20001,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"alignSelf": "CENTER",
+					"flexGrow": 1
+				},
+				"flex": {
+					"flexDirection": 2,
+					"positionType": 0
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": 25,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"left": null,
+				"top": null,
+				"borderRadius": null,
+				"paddingLeft": 1,
+				"paddingRight": 1,
+				"paddingBottom": 1,
+				"paddingTop": 1,
+				"marginLeft": 10,
+				"usePageVariable": true,
+				"id": 20001,
+				"flexProps": {
+					"alignSelf": "CENTER",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "bet_x",
+				"parent": "c087-ec44-556c-5f64",
+				"children": [
+					"3dda-e882-dc72-51bc",
+					"2e24-9096-b1fe-71f6",
+					"73bd-e3ea-b78e-21c4"
+				]
+			}
+		},
+		{
+			"type": "Label",
+			"id": "3dda-e882-dc72-51bc",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": 20,
+				"text": "1",
+				"left": null,
+				"backgroundColor": "rgba( 255, 0, 0, 1 )",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": 20,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 0, 0, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#000000",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"usePageVariable": true,
+				"id": 103,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "label51",
+				"parent": "fe21-dea9-81c2-b43d",
+				"children": []
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "2e24-9096-b1fe-71f6",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": 1,
+				"height": null,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"id": 102
+			},
+			"className": ".flexLayout",
+			"props": {
+				"height": null,
+				"width": 1,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "rgba( 220, 220, 220, 1 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"id": 102,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE"
+				},
+				"name": "flexLayout25",
+				"parent": "fe21-dea9-81c2-b43d",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "73bd-e3ea-b78e-21c4",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"height": null,
+				"width": null,
+				"text": "1.55",
+				"left": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textAlignment": "MIDCENTER",
+				"marginLeft": 2,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true
+				},
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".label",
+			"props": {
+				"width": null,
+				"height": null,
+				"touchEnabled": true,
+				"text": "1.55",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba( 252, 103, 38, 1 )",
+				"textAlignment": "MIDCENTER",
+				"left": null,
+				"marginLeft": 2,
+				"id": 101,
+				"usePageVariable": true,
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "label52",
+				"parent": "fe21-dea9-81c2-b43d",
+				"children": []
+			}
+		}
+	]
+}
